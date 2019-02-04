@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quiz System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="imgs/favicon.png"/>
+        
+</head>
+
+<body>
+    <header>
+        <div class="head-container">
+            <div class="logo">
+                <img src="imgs/logo-.png" alt="Quiz System">
+            </div>
+
+            <div class="mainmenu">
+                <ul>
+                    <li><a href="https://www.google.com" target="_blank">Ask Google</a></li>
+                    <li><a href="mailto:engineer.ahmedhussein@gmail.com?Subject=Quiz%20System%20JS">Email me</a></li>
+                    <li id="fb"><a href="https://www.facebook.com/Engineer.AhmedHussein" target="_blank"><img class="image"src="imgs/fb.png" width="40px;"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <div class="quizContent">
+        <div class="mngez-registerpage">
+            <div class="title">User Registration</div>
+            <div class="content">
+                <form class="myForm">     <!-- method="POST" onsubmit="return CheckForm(this) -->
+                    <div class="form-group">
+                        <label>Username</label>
+                        <input type="text" id="usr_login" value="">
+                        <div class="clearfix"></div>
+                    </div><!-- end form-group -->
+                    <div class="form-group">
+                        <label>E-mail</label>
+                        <input type="text" id="usr_email" value="">
+                        <div class="clearfix"></div>
+                    </div><!-- end form-group -->
+
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" id="usr_password" value="">
+                        <div class="clearfix"></div>
+                    </div><!-- end form-group -->
+                    <div class="form-group">
+                        <label>Retype Password</label>
+                        <input type="password" id="usr_password2" value="">
+                        <div class="clearfix"></div>
+                    </div><!-- end form-group -->
+
+
+                    <button class="submit" type="submit">Start the Quiz</button>
+                </form>
+            </div><!-- end content -->
+        </div>
+        
+
+        <div>
+            <div class="mngez-questbody hidden">
+              <div class="mngez-questbod-sub">
+                    <div class="clearfix"></div>
+
+                    <h2 id="test_status"></h2>
+                    <div id="test"></div>
+
+              </div> 
+            </div> 
+            </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

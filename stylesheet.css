@@ -1,0 +1,209 @@
+
+body {
+
+   background:  #ecf0f1 url(/imgs/background.png) repeat fixed center center;
+   margin: 0;
+}
+.quizContent{
+    margin-top: 12%;
+}
+header{
+    background-color: #366e8b;
+    
+}
+
+
+.head-container{
+    background-color: #366e8b;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 5px 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+}
+
+.mainmenu{
+    float: right;
+    margin: 30px auto;
+}
+.mainmenu ul {
+    margin: 0;
+}
+.mainmenu ul li {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+ .mainmenu ul li a {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    color: #ffffff;
+    display: block;
+    font-family: 'Play', sans-serif;
+    font-size: 17px;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+ .mainmenu ul li a:hover {
+    background-color: #1abc9c;
+}
+#fb{
+    position: relative;
+    top: 10px;
+}
+#fb a:hover{
+    z-index: 99999999;
+    background-color: transparent;
+    opacity: 0.4;
+    transition: 0.2s ease-in-out;
+}
+.clearfix {
+    clear: both;
+}
+
+.mngez-registerpage {
+    margin: 50px auto;
+    width: 50%;
+}
+.mngez-registerpage .title {
+    background-color: #366e8b;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    font-family: "play";
+    font-size: 21px;
+    line-height: normal;
+    padding: 12px 15px;
+    text-align: left;
+}
+.mngez-registerpage .content {
+    background-color: #ffffff;
+    border-bottom: 1px solid #d3dcde;
+    border-left: 1px solid #d3dcde;
+    border-radius: 0 0 5px 5px;
+    border-right: 1px solid #d3dcde;
+    padding: 15px;
+}
+
+.mngez-registerpage .content .form-group {
+    margin: 0 auto 15px;
+}
+.mngez-registerpage .content .form-group label {
+    color: #666666;
+    float: left;
+    font-family: "play";
+    font-size: 17px;
+    line-height: 40px;
+    text-align: left;
+    width: 35%;
+}
+.mngez-registerpage .content .form-group input {
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #666666;
+    font-family: "play";
+    font-size: 15px;
+    height: 40px;
+    line-height: normal;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: static;
+    width: 65%;
+}
+.mngez-registerpage .content button {
+    background-color: #1abc9c;
+    border: medium none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-family: "play";
+    font-size: 20px;
+    height: 40px;
+    margin: 0 auto;
+    width: 40%;
+    outline:none;
+}
+.mngez-registerpage .content button:hover {
+    background-color: #366e8b;
+}
+
+.mngez-questbody {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 20px;
+    width: 50%;
+    margin: 50px auto;
+}
+.mngez-questbody-sub {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    font-family: "play";
+    padding: 20px;
+}
+a:link {
+    text-decoration: none;
+}
+.mngez-next {
+    
+    outline:none;        
+    background-color: #366e8b;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline;
+    font-size: 20px;
+    line-height: normal;
+    padding: 12px 30px;
+    margin-left: 10%;
+    margin-right: 25%;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 0px;
+    font-family: 'Play', sans-serif;
+}
+.mngez-next:hover {
+background-color: #1abc9c;
+}
+.mngez-skip:hover {
+    background-color: #1abc9c;
+    }
+.mngez-skip{
+    outline:none;        
+    background-color: #366e8b;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline;
+    font-size: 20px;
+    line-height: normal;
+    padding: 12px 30px;
+    margin-left:20%;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 0px;
+    font-family: 'Play', sans-serif;
+}
+
+.active{
+    display:block;
+}
+
+.hidden
+{
+    display:none
+}
+
+#test{
+    font-family: 'Play', sans-serif;
+}
+
+#test_status
+{
+    font-family: 'Play', sans-serif;
+}
